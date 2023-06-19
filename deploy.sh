@@ -13,7 +13,5 @@ pip install -r requirements.txt
 supervisorctl stop main.py
 supervisorctl start main.py
 
-# Optioneel: Controleer of de toepassing correct wordt uitgevoerd
+# Controleer of de toepassing correct wordt uitgevoerd
 systemctl status main.py
-
-
