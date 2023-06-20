@@ -12,3 +12,4 @@ supervisorctl start main.py
 
 # Controleer of de toepassing correct wordt uitgevoerd
 systemctl status main.py
+

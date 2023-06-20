@@ -1,5 +1,3 @@
-# Add your code after this line
-
 from flask import Flask
 
 app = Flask(__name__)

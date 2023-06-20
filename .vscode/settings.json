@@ -1,3 +1,5 @@
+/* Using the Black Formatter */
+
 {
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
