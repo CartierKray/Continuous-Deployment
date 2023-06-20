@@ -1,4 +1,4 @@
-Continuous Deployment (CD) Pipeline Report
+<h2>Continuous Deployment (CD) Pipeline Report</h2>
 
 
 
