@@ -1,5 +1,3 @@
-# Test main.py
-
 import pytest
 
 from main import app
