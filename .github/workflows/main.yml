@@ -34,6 +34,6 @@ jobs:
           host: ${{ secrets.host}}
           port: ${{ secrets.port}}
           username: ${{ secrets.username}}
-          key: ${{ secrets.privatekey}}
+          key: ${{ secrets.key}}
           script: |
             pwd
