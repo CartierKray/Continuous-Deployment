@@ -23,3 +23,17 @@ jobs:
 
       - name: Run tests
         run: pytest
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to DigitalOcean
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.host}}
+          port: ${{ secrets.port}}
+          username: ${{ secrets.username}}
+          key: ${{ secrets.privatekey}}
+          script: |
+            pwd
