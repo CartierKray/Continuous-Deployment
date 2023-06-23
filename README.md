@@ -10,7 +10,7 @@ Bash Scripts: Bash scripting is utilized to create a deployment script that is e
 
 Digital Ocean: Digital Ocean is a cloud infrastructure provider that offers virtual private servers (VPS). In this solution, a VPS running a Flask application is used as the deployment target. The server can be provisioned and accessed using Digital Ocean's platform. It provides the environment where the code is deployed and executed.
 
-
+<hr>
 
 Problems Encountered and Solutions:
 
