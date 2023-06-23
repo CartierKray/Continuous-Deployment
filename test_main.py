@@ -26,3 +26,6 @@ def test_greet(client):
 
     assert response.status_code == 200
     assert response.data == b"<h1>Hello, bob!</h1>"
+
+
+# Testen
