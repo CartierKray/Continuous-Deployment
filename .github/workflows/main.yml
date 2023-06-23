@@ -38,6 +38,6 @@ jobs:
           script: |
             pwd
             cd /home/farm/Continuous-Deployment
+            git pull
             systemctl restart farm.service
             systemctl status farm.service
-            git pull
