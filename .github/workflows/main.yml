@@ -37,6 +37,7 @@ jobs:
           key: ${{ secrets.key}}
           script: |
             pwd
-            cd /home/farm
+            cd /home/farm/Continuous-Deployment
             systemctl restart farm.service
             systemctl status farm.service
+            git pull
