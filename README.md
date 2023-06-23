@@ -20,7 +20,7 @@ Testing Setup: Configuring the testing environment and running tests within the 
 
 Deployment Script: Developing the deployment script involved considering the specific commands required to update the code and restart the Flask application. The script was tested locally to ensure its correctness and then incorporated into the GitHub Actions workflow. The script's output and the application's status were verified to ensure a successful deployment.
 
-
+<hr>
 
 Note about the Process:
 
