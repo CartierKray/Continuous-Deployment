@@ -37,3 +37,6 @@ jobs:
           key: ${{ secrets.key}}
           script: |
             pwd
+            cd /home/farm
+            systemctl restart farm.service
+            systemctl status farm.service
